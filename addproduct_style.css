@@ -1,0 +1,106 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+    display: inline-block;
+}
+
+img {
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+td {
+    width: 25rem;
+}
+
+.container {
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 30%;
+
+}
+.container label {
+    margin-left: 10px;
+}
+
+.container h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.container fieldset {
+    border-radius: 40px;
+}
+
+.container legend {
+    padding-left: 20px;
+    margin: 10px;
+    padding-right: 5px;
+}
+
+.container label {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.container input, textarea {
+    margin: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    padding-left: 5px;
+    border-radius: 40px;
+}
+
+.container input[type=password] {
+    margin-left: 55px;
+}
+
+.container select {
+    margin: 10px;
+    margin-left: 40px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 40px;
+    padding-right: 50px;
+}
+
+.container input[type=submit]{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 2.5rem;
+}
+
+.container input[type=submit]:hover {
+    background-color: green;
+    color: white;
+}
+
+.container input[type=reset]{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.container input[type=reset]:hover {
+    background-color: red;
+    color: white;
+}
+
+.container ::placeholder {
+    padding: 10px;
+}

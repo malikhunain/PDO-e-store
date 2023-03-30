@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h3 {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: peru;
+    color: black;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+
+.btn1:hover {
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+}
+
+.btn2:hover {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+
+.btn3:hover {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
